@@ -1,5 +1,8 @@
-# flashtimes
-Flash cards for multiplication (and division, kind of)
+# flashnotes
+Flash cards for musical notes
+
+This app began life as flashtimes, a multiplication flashcard app.
+That's why there's a lot of arithmetic in the repo history.
 
 *Psst  looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
