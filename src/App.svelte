@@ -2,9 +2,9 @@
     import FlashForward from './FlashForward.svelte';
     import Launch from './Launch.svelte';
 
-	let name = 'Multiplier';
+	let name = 'music maker';
 
-    let launched = false;
+    let launched = true; // false;
 
     let num_problems = 100;
     let op_mult = true;
@@ -20,10 +20,7 @@
 
 {#if launched}
 <FlashForward
-    upper=11
     {num_problems}
-    op_mult={op_mult}
-    op_div={op_div}
     />
 {:else}
 <Launch
